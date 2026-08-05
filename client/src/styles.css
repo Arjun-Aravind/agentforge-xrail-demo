@@ -407,6 +407,10 @@ body {
   color: #6b7386;
   padding: 0 4px;
 }
+/* Overview: the wagon flow legend of the relation panel is shown in bold. */
+.dashboard .box legend {
+  font-weight: 700;
+}
 .box .row {
   display: flex;
   gap: 16px;
