@@ -35,7 +35,7 @@ export default function App() {
         <div className="brand">
           <span className="brand-x">X</span>-Rail
         </div>
-        <div className="env-pill">TEST</div>
+        <div className="env-pill">{meta?.environment || 'DEMO'}</div>
         <nav className="mainnav">
           {NAV.map((item) => (
             <NavLink key={item.to} to={item.to} className={({ isActive }) => (isActive ? 'navlink active' : 'navlink')}>
