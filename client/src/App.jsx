@@ -33,9 +33,9 @@ export default function App() {
     <div className="app">
       <header className="topbar">
         <div className="brand">
-          <span className="brand-x">x</span>rail
+          <span className="brand-x">X</span>-Rail
         </div>
-        <div className="env-pill">DEMO</div>
+        <div className="env-pill">TEST</div>
         <nav className="mainnav">
           {NAV.map((item) => (
             <NavLink key={item.to} to={item.to} className={({ isActive }) => (isActive ? 'navlink active' : 'navlink')}>
