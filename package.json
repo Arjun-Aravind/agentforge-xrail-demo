@@ -1,0 +1,14 @@
+{
+  "name": "xcp-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Xrail Collaboration Platform (XCP) - demo prototype",
+  "scripts": {
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install",
+    "dev": "concurrently -n server,client -c cyan,magenta \"npm --prefix server run dev\" \"npm --prefix client run dev\"",
+    "start": "npm --prefix server start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
