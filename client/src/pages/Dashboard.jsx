@@ -94,7 +94,7 @@ export default function Dashboard() {
           onClose={() => setSelected(null)}
         >
           <fieldset className="box">
-            <legend>Wagon flow</legend>
+            <legend style={{ fontWeight: 700 }}>Wagon flow</legend>
             <div className="kv">
               <span>Inflow</span>
               <span>
